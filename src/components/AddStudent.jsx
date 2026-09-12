@@ -19,7 +19,6 @@ function AddStudent() {
             alert("Please enter name")
             return
         }
-
         alert("Student name Added")
 
         setStudentsDetail([...studentsDetail, studentName])
