@@ -20,6 +20,8 @@ function AddStudent() {
             return
         }
 
+        alert("Student name Added")
+
         setStudentsDetail([...studentsDetail, studentName])
         setStudentName('')
     }
