@@ -33,7 +33,7 @@ function Favourite() {
                             return (
                                 <div key={index} className="flex justify-between items-center px-0 py-3 border-t-2 border-gray-300 w-full gap-2 text-xs md:text-base">
                                     <p>{index + 1}. {student}</p>
-                                    <button onClick={() => handleDelete(student)} className="bg-red -500 text-white px-2 py-1 rounded-md flex items-center gap-2">
+                                    <button onClick={() => handleDelete(student)} className="bg-red-500 text-white px-2 py-1 rounded-md flex items-center gap-2">
                                         <FaTrash />Delete
                                     </button>
                                 </div>
